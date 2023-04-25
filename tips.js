@@ -1,7 +1,7 @@
 //sample inputs
 var foodCost = 79.25;
 var tax = 6.54;
-var tip = 12.00;
+var tip = 12;
 
 //calculations
 var totalDue = foodCost + tax + tip;

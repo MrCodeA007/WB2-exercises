@@ -2,10 +2,12 @@
 var hamburger = 12;
 var fries = 3;
 var soda = 4;
-var tip = 10;
+var tipPer = 0.15;
+// 15% tip is o.15
 
 //calculations
 var bill = hamburger + fries + soda;
-var tipPer = bill % tip;
+var tipAmount= bill * tipPer;
+
 //output 
-console.log("The tip on a " + bill + " food bill is " + tipPer) 
+console.log("The tip on a " + bill.toFixed(2) + " food bill is " + tipAmount) 

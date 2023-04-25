@@ -4,7 +4,7 @@ var Electronics = 1000;
 var Billnearme = 64;
 
 //calculations
-var Networth = PKMcards + Electronics - 64;
+var Networth = PKMcards + Electronics - Billnearme;
 
 //output
-console.log("Your net worth is " + Networth);
+console.log("Your net worth is "+ Networth);
