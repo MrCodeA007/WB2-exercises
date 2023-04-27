@@ -1,3 +1,4 @@
+//sample input
 var payRate = 25;
 var hoursWorked = 45;
 var overtimeThreshold = 40;
@@ -6,6 +7,8 @@ var grossPay = payRate * hoursWorked;
 var overtimeHours = hoursWorked - overtimeThreshold;
 var overtimeRate= payRate * 1.5;
 var grossweeklyPay;
+
+//calculations
 if (hoursWorked <= overtimeThreshold) {
     grossweeklyPay = hoursWorked * overtimeThreshold
     console.log("gross pay is", payRate * hoursWorked)
@@ -17,7 +20,7 @@ if (hoursWorked <= overtimeThreshold) {
 
 
 //grossWeeklyPay
-var grossAnnualPay = grossweeklyPay * 52;;
+var grossAnnualPay = grossweeklyPay * 52;
 var taxRate;
 if (filingstatus == "single") {
 if (grossAnnualPay < 12000) {

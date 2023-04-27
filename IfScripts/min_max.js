@@ -7,15 +7,17 @@ var maxNum;
 //definine minimum #
 if (a < b && a < c) {
     miniNum= a;
-} else if (b < a && b < c) {
+} /*else if (b < a && b < c) {
     miniNum =b;
 } else {
  miniNum= c;
-}
+}*/ //does it need this?
 console.log(`The min of ${a},${b},${c} is ${miniNum}`)
 
+//-------------------------------------------------------------------------------------
+
 //define maximum 
-if (a >= b && a >= c) {
+if (a <= b && a <= c) {
     maxNum= a;
 } else if (a >= b && b >= c) {
     maxNum =b;
